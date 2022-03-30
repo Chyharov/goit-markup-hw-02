@@ -22,16 +22,16 @@ body {
 /* навигация сайта */
 
 .site-nav .link {
-  color: var(--accent-color);
+  color: var(--title-text-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--title-text-color);
+  color: var(--accent-color);
 }
 
 .site-nav .link.curred {
-  color: var(--title-text-color)
+  color: var(--accent-color)
 }
 
 /* hero */
