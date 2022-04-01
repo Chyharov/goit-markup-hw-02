@@ -38,7 +38,7 @@ body {
   color: var(--primary-white-color);
 }
 
-.list, .feature-list {
+.list, .feature-list, .cards {
   list-style: none;
 }
 
@@ -170,6 +170,11 @@ line-height: 1.19;
 
 /* portfolio */
 
+.cards-link {
+  text-decoration: none;
+  list-style: none;
+}
+
 .portfolio-name {
   color: var(--primary-text-color);
 
@@ -188,11 +193,6 @@ line-height: 1.19;
 footer {
   background-color: #2F303A;
   color: var(--primary-white-color);
-
-  font-family: Roboto, sans-serif; 
-  letter-spacing: 0.03em;
-  font-size: 14px;
-  line-height: 1.71;
 }
 
 .footer-link {
@@ -218,7 +218,16 @@ footer {
   color: var(--accent-color);
 }
 
-.footer-link:hover,
-.footer-link:focus {
+.footer-link, .head-contact-link:hover,
+.footer-link, .head-contact-link:focus {
   color: var(--accent-color);
+}
+
+.head-contact-link {
+  color:var(--title-text-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
