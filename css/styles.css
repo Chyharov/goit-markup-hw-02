@@ -192,20 +192,22 @@ line-height: 1.19;
 
 footer {
   background-color: #2F303A;
-  color: var(--primary-white-color);
 }
 
 .footer-link {
-  color: var(--primary-white-color);
-  cursor: pointer;
+  color: #ffffff;
   font-style: normal;
   text-decoration: none;
+}
+
+.footer-link:focus,
+.footer-link:hover {
+  color: var(--accent-color);
 }
 
 .footer-link-grey {
   color:rgba(255, 255, 255, 0.6);
   
-  cursor: pointer;
   font-style: normal;
   letter-spacing: 0.03em;
   font-size: 14px;
@@ -213,13 +215,13 @@ footer {
   text-decoration: none;
 }
 
-.footer-link-grey:focus, .footer-link-grey:hover
- {
+.footer-link-grey:focus, 
+.footer-link-grey:hover {
   color: var(--accent-color);
 }
 
-.footer-link, .head-contact-link:hover,
-.footer-link, .head-contact-link:focus {
+.head-contact-link:hover,
+.head-contact-link:focus {
   color: var(--accent-color);
 }
 
